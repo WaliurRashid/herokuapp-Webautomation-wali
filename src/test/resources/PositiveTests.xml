@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PositiveLogInTestSuite" verbose="1">
+    <parameter name="browser" value="chrome">browser</parameter>
+    <parameter name="osName" value="mac">osName</parameter>
+
+    <test name="PositiveLogInTest">
+        <classes>
+            <class name="PositiveLogInTests"></class>
+            <class name="DragAndDrop"></class>
+            <class name="CheckUncheck"></class>
+            <class name="UploadFile"></class>
+            <class name="DropDown"></class>
+            <class name="DownloadFile"></class>
+            <class name="ContextMenu"></class>
+        </classes>
+    </test>
+
+</suite>
