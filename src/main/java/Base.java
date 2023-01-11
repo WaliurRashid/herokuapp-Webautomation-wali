@@ -11,7 +11,7 @@ public class Base {
 
     @Parameters({ "browser", "osName" })
     @BeforeMethod(alwaysRun = true)
-    public void setUp(@Optional("chrome") String browser, @Optional("mac") String osName) {
+    public void setUp(@Optional("chrome") String browser, @Optional("windows") String osName) {
 
         System.out.println("Create driver: " + browser); //create driver
         switch (browser) {
